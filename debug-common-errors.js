@@ -22,12 +22,12 @@ Think about which debugging methods you found most useful and how you might appl
 
 // Program A
 // Description:
-// This program is intended to display a simple prompt in the console but fails to run.
+// This program is intended to display a simple prompt in the console but fails to run. */
 
-console.log("Welcome to the bootcamp
+console.log("Welcome to the bootcamp");
 
 // What’s Wrong?
-
+SyntaxError
 
 // Program B
 // Description:
@@ -40,6 +40,9 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 // What’s Wrong?
+The error in  original code occurs because "eight" is a string, and JavaScript does not support arithmetic operations on non-numeric values.
+
+
 
 
 
@@ -60,3 +63,4 @@ function isPrime(num) {
 console.log(isPrime(7)); // Expected true but gets false
 
 // What’s Wrong?
+It's a logical error return true;  // Supposed to indicate num is NOT prime
